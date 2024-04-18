@@ -8,7 +8,7 @@ export default function Home() {
 		<>
 			<Navbar />
 			<main>
-				<section className="hero w-full border-b-2 border-darkgrey pb-20 md:pb-40">
+				<section id="hero" className="w-full border-b-2 border-darkgrey pb-20 md:pb-40">
 					<Image className="absolute mt-10 w-full md:w-1/2 lg:w-[700] md:mt-20 -z-10" src="/images/waveform-1.png" alt="WaveForm" width={700} height={450} priority></Image>
 					<div className="container px-3 mx-auto mr-[20%] pt-64 flex flex-col justify-center">
 						<div className="relative flex flex-col gap-3 w-full items-end before:content-[''] before:hidden md:before:block before:absolute before:h-28 before:w-0.5 before:top-[-80%] before:bg-darkgrey">
@@ -42,6 +42,20 @@ export default function Home() {
 							</a>
 						</div>
 					</div>
+				</section>
+				<section id="about" className="mt-24">
+					<div className="container px-3 md:px-10 lg:px-20">
+						<div className="flex justify-between items-center">
+							<h1 className="text-8xl text-anton w-full lg:w-2/3 leading-tight">
+								Hi, there! <br></br>
+								I enjoy crafting <span className="text-magenta">digital solutions</span> for businesses.
+							</h1>
+							<Image className="aspect-square max-w-[400px]" src="/images/Ellipse-1.png" layout="responsive" alt="Shashank Deep" width={400} height={400} quality={100}></Image>
+						</div>
+					</div>
+				</section>
+				<section id="projects" className="pt-10 h-screen bg-darkgrey">
+
 				</section>
 			</main>	
 		</>

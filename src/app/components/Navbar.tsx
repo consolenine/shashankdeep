@@ -5,10 +5,10 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 
 const navigation = [
-    { name: 'Projects', href: '#' },
-    { name: 'Skills', href: '#' },
-    { name: 'Education', href: '#' },
-    { name: 'Contact Me', href: '#' },
+    { name: 'Projects', href: '#projects' },
+    { name: 'Skills', href: '#skills' },
+    { name: 'Education', href: '#education' },
+    { name: 'Contact Me', href: '#contact' },
 ]
 
 const Navbar: React.FC = () => {
