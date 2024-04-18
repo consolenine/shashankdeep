@@ -16,6 +16,22 @@
 	.text-poppins {
 		font-family: 'Poppins', sans-serif;
 	}
+	.button-55 {
+		text-decoration: none;
+		transition: all 235ms ease-in-out;
+		user-select: none;
+		-webkit-user-select: none;
+		touch-action: manipulation;
+	}
+
+	.button-55:hover {
+		box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+		transform: translate3d(0, 2px, 0);
+	}
+
+	.button-55:focus {
+		box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+	}
 }
 
 

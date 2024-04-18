@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
-        <header className='fixed bg-wheat_semi backdrop-blur-sm md:rounded-br-xl w-full'>
+        <header className='fixed bg-wheat_semi backdrop-blur-sm md:rounded-br-xl w-full z-50'>
             <nav className="bg-gray-800 px-3 md:px-10 lg:px-20 py-6 md:pt-12">
                 <div className="container md:w-fit mx-auto md:me-auto md:ms-0 flex items-center justify-between md:gap-10 lg:gap-32">
                 <a href="#">
