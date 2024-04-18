@@ -6,12 +6,6 @@
 @tailwind utilities;
 
 
-
-body {
-	@apply bg-wheat;
-	@apply h-screen;
-}
-
 @layer utilities {
 	.text-balance {
 		text-wrap: balance;
@@ -19,4 +13,14 @@ body {
 	.text-anton {
 		font-family: 'Anton', sans-serif;
 	}
+	.text-poppins {
+		font-family: 'Poppins', sans-serif;
+	}
+}
+
+
+body {
+	@apply bg-wheat;
+	@apply text-darkgrey;
+	@apply text-poppins;
 }

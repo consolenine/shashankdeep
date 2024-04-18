@@ -10,6 +10,7 @@ const config: Config = {
 		colors: {
 			'yellow': '#FFC830',
 			'wheat': '#F3F3F3',
+			'wheat_semi': 'rgba(243, 243, 243, 0.70)',
 			'magenta': '#DB4AFF',
 			'darkgrey': '#191919',
 			'black': '#000000',
