@@ -47,7 +47,9 @@ const Navbar: React.FC = () => {
                     <div className="fixed inset-0 z-50" />
                     <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-darkgrey px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                         <div className="flex items-center justify-between">
-                        <a href="#" className="-m-1.5 p-1.5">
+                        <a href="#" className="-m-1.5 p-1.5"
+                            onClick={() => setMobileMenuOpen(false)}
+                        >
                             <div className="text-wheat font-semibold text-l lg:text-xl">shashank <span className="text-darkgrey bg-wheat">(deep)</span></div>
                         </a>
                         <button
