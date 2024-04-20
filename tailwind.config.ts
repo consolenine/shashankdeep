@@ -13,6 +13,7 @@ const config: Config = {
 			'wheat_semi': 'rgba(243, 243, 243, 0.70)',
 			'magenta': '#DB4AFF',
 			'darkgrey': '#191919',
+			'dullgreen': '#4E806E',
 			'black': '#000000',
 		},
 		extend: {
@@ -23,6 +24,7 @@ const config: Config = {
 			}
 		},
 	},
-	plugins: [],
-};
+	plugins: []
+}
+
 export default config;

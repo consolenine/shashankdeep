@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "animate.css";
 
 export const metadata: Metadata = {
 	title: "Shashank Deep - Fullstack Developer",
@@ -36,6 +37,7 @@ export default function RootLayout({
 	}: Readonly<{
 	children: React.ReactNode;
 	}>) {
+
 	return (
 		<html lang="en">
 		<body>{children}</body>
