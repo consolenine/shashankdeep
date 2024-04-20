@@ -157,8 +157,8 @@ export default function Home() {
 								Have something exciting for me?
 							</h1>
 							<div>
-								<h6 className="text-center md:text-start">Contact</h6>
-								<ul className="flex flex-col gap-4 mt-4 items-center">
+								<h6 className="text-center md:text-end">Contact</h6>
+								<ul className="flex flex-col gap-4 mt-4 items-center md:items-end">
 									<li><a href="mailto:shashank.deep01@gmail.com">shashank.deep01@gmail.com</a></li>
 									<li><a href="tel:+919696844764">+91 9696844764</a></li>
 								</ul>
