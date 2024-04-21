@@ -2,6 +2,7 @@
 
 import Navbar from "./components/Navbar";
 import Image from "next/image";
+import Script from "next/script";
 import { Tooltip } from "@material-tailwind/react";
 import ProjectsCarousel from "./components/ProjectsCarousel";
 import SkillBlock from "./components/SkillBlock";

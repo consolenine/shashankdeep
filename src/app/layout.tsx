@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { GoogleAnalytics } from '@next/third-parties/google'
 import "./globals.css";
 import "animate.css";
 
@@ -41,6 +42,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 		<body>{children}</body>
+		<GoogleAnalytics gaId="G-DWEDY3RN2W" />
 		</html>
 	);
 }
