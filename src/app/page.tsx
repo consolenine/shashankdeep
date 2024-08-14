@@ -26,11 +26,11 @@ export default function Home() {
 										<Image src="/images/mail.svg" alt="E-Mail" height={48} width={48}></Image>
 									</a>
 								</Tooltip>
-								<Tooltip content="+91 9696844764" placement="bottom">
+								{/* <Tooltip content="+91 9696844764" placement="bottom">
 									<a href="tel:+919696844764">
 										<Image src="/images/phone.svg" alt="Phone" height={48} width={48}></Image>
 									</a>
-								</Tooltip>
+								</Tooltip> */}
 							</ul>
 						</div>
 					</div>
@@ -40,7 +40,7 @@ export default function Home() {
 						</button>
 						<div className="flex w-full px-3 md:px-10 lg:pl-20 lg:pr-44 justify-between">
 							<h6 className="max-w-[50%] text-xl md:text-2xl relative before:content-[''] before:hidden md:before:block before:absolute before:h-48 before:w-0.5 before:bottom-[-10rem] before:bg-darkgrey animate__animated animate__fadeInUp animate__slow">FULL-STACK DEVELOPER</h6>
-							<a href="/documents/ShashankDeep_FullStackDeveloper_Resume_April2024.pdf" target="_blank">
+							<a href="/documents/Shshnk_Deep_Software_Developer_Resume_August_2024.pdf" target="_blank">
 								<div className="md:py-4 text-anton text-darkgrey text-2xl md:text-4xl flex gap-2 items-center relative before:content-[''] before:hidden md:before:block before:absolute before:w-44 before:h-0.5 before:right-[-11rem] before:bg-darkgrey animate__animated animate__fadeInRight animate__slow">
 									RESUME
 									<Image src="/images/arrow-down-circle.svg" className="w-[24px] md:w-[48px]" alt="Phone" height={48} width={48}></Image>
@@ -161,13 +161,13 @@ export default function Home() {
 								<h6 className="text-center md:text-end">Contact</h6>
 								<ul className="flex flex-col gap-4 mt-4 items-center md:items-end">
 									<li><a href="mailto:shashank.deep01@gmail.com">shashank.deep01@gmail.com</a></li>
-									<li><a href="tel:+919696844764">+91 9696844764</a></li>
+									{/* <li><a href="tel:+919696844764">+91 9696844764</a></li> */}
 								</ul>
 							</div>
 						</div>
 						<div className="flex flex-col-reverse md:flex-row items-center justify-between mt-20">
 							<p>Copyright 2024. All rights reserved.</p>
-							<a href="/documents/ShashankDeep_FullStackDeveloper_Resume_April2024.pdf" target="_blank">Download Resume</a>
+							<a href="/documents/Shshnk_Deep_Software_Developer_Resume_August_2024.pdf" target="_blank">Download Resume</a>
 						</div>
 					</div>
 				</div>
