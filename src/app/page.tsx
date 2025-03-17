@@ -40,7 +40,7 @@ export default function Home() {
 						</button>
 						<div className="flex w-full px-3 md:px-10 lg:pl-20 lg:pr-44 justify-between">
 							<h6 className="max-w-[50%] text-xl md:text-2xl relative before:content-[''] before:hidden md:before:block before:absolute before:h-48 before:w-0.5 before:bottom-[-10rem] before:bg-darkgrey animate__animated animate__fadeInUp animate__slow">FULL-STACK DEVELOPER</h6>
-							<a href="/documents/Shshnk_Deep_SDE_Resume_Oct_24.pdf" target="_blank">
+							<a href="/documents/Shshnk_Deep_SDE_Resume_March_25.pdf" target="_blank">
 								<div className="md:py-4 text-anton text-darkgrey text-2xl md:text-4xl flex gap-2 items-center relative before:content-[''] before:hidden md:before:block before:absolute before:w-44 before:h-0.5 before:right-[-11rem] before:bg-darkgrey animate__animated animate__fadeInRight animate__slow">
 									RESUME
 									<Image src="/images/arrow-down-circle.svg" className="w-[24px] md:w-[48px]" alt="Phone" height={48} width={48}></Image>
@@ -167,7 +167,7 @@ export default function Home() {
 						</div>
 						<div className="flex flex-col-reverse md:flex-row items-center justify-between mt-20">
 							<p>Copyright 2024. All rights reserved.</p>
-							<a href="/documents/Shshnk_Deep_SDE_Resume_Oct_24.pdf" target="_blank">Download Resume</a>
+							<a href="/documents/Shshnk_Deep_SDE_Resume_March_25.pdf" target="_blank">Download Resume</a>
 						</div>
 					</div>
 				</div>
